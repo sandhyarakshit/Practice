@@ -1,0 +1,11 @@
+using SchoolApplication.Models;
+using SchoolApplication.Repositories;
+
+namespace SchoolApplication.Repositories
+{
+    public interface IUserRepository
+    {
+        Task<List<User>> GetUsersAsync();
+    }
+}
+
